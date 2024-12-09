@@ -1,0 +1,29 @@
+{
+  "development": {
+    "database": {
+      "url": "mongodb://localhost:27017/GlobelPrime1",
+      "options": {
+      }
+    }
+  },
+  "test": {
+    "database": {
+      "url": "mongodb://localhost:27017/GlobelPrime1",
+      "options": {
+
+      }
+    }
+  },
+  "production": {
+    "database": {
+      "protocol": "mongodb",
+      "username": "root",
+      "password": "password",
+      "name": "database_production",
+      "host": "localhost",
+      "port": "",
+      "options": {
+      }
+    }
+  }
+}
